@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transportation Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Luck Survey</h2>
+      </div>
+      <form id="transportation_survey">
+        <div class="form-group bad">
+          <p>In the past year, I have encountered the following:</p>
+          <input type="checkbox" name="work-transportation" value="bike"> The path of a black cat.<br>
+          <input type="checkbox" name="work-transportation" value="car"> 4, 9, 43, 13, 17, 39, or 666.<br>
+          <input type="checkbox" name="work-transportation" value="carpool"> Failing to Respond to a Chain Letter.<br>
+          <input type="checkbox" name="work-transportation" value="walk"> Saying the name MacBeth.<br>
+          <input type="checkbox" name="work-transportation" value="bus"> Tipping over a Salt Shaker.<br>
+          <input type="checkbox" name="work-transportation" value="train"> Breaking a Mirror.<br>
+          <input type="checkbox" name="work-transportation" value="streetcar"> Walking under a Ladder.<br>
+          <input type="checkbox" name="work-transportation" value="streetcar"> Twitching of Left Eye.<br>
+        </div>
+        <div class="form-group good">
+          <p>In the past year, I have encountered the following:</p>
+          <input type="checkbox" name="fun-transportation" value="bike"> A Rainbow (don't point).<br>
+          <input type="checkbox" name="fun-transportation" value="car"> A Four Leaf Clover.<br>
+          <input type="checkbox" name="fun-transportation" value="carpool"> Received Money.<br>
+          <input type="checkbox" name="fun-transportation" value="walk"> Twitching of Right Eye.<br>
+          <input type="checkbox" name="fun-transportation" value="bus"> Your Initials in a Spider Web<br>
+          <input type="checkbox" name="fun-transportation" value="train"> See a Shooting Star.<br>
+          <input type="checkbox" name="fun-transportation" value="streetcar"> Meeting Ka<br>
+          <input type="checkbox" name="fun-transportation" value="taxi"> A Tails-side up Penny.<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="unlucky">
+        <p><b>I suggest an exorcism</b></p>
+      </span>
+      <br>
+      <span id="lucky">
+        <p><b>Buy a lottery ticket</b></p>
+      </span>
+      <span id="undecided">
+        <p><b>Congrats! You exist in the void of reality</b></p>
+      </span>
+    </div>
+  </body>
+</html>
